@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:lightgrey;
+    }
+    header{
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      
+    }
+    nav{
+      background-color: rgb(238, 238, 238);
+      padding: 3px;
+      padding-left: 10px;
+      box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.164);
+
+    }
+    nav > a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      margin-right: 30px;
+    }
+    nav > a:hover{
+      text-decoration: underline;
+      color: brown;
+    }
+    main{
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 0px 0px 20px 20px;
+    }
+    footer{
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      margin: 10px;
+    }
+    footer > p{
+      margin: 4px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Site</h1>
+    <nav>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="assuntos">
+      <p>Esportes Política Tecnologia</p>
+
+    </section>
+    <section id="noticias">
+      <article>
+          <aside>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam repellat accusantium est architecto non, autem iste neque cumque delectus doloribus cupiditate illo beatae adipisci similique nulla atque consequatur eius sed!</p>
+            <p>Artigo escrito por Zé.</p>
+          </aside>
+
+      </article>
+
+      <article>
+          <aside>
+            <h2>Notícia sobre o Mundo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam repellat accusantium est architecto non, autem iste neque cumque delectus doloribus cupiditate illo beatae adipisci similique nulla atque consequatur eius sed!</p>
+            <p>Artigo escrito por Jorge.</p>
+           </aside>   
+
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido pelo CursoEmVideo</p>
+  </footer>
+
+
+
+
+</body>
+</html>
