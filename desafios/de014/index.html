@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelam de Boletim</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+      border-collapse: collapse;
+      width: 500px;
+    }
+    caption{
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 10px;
+    }
+    thead{
+      background-color: gray;
+      color: white;
+    }
+    th, td{
+      border: 1px solid black;
+      padding: 10px;
+      font-weight: lighter;
+    }
+    .bold{
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Colégio Gama Filho</h1>
+  <table>
+  <caption>Boletim do aluno</caption>
+  <thead>
+    <tr>
+      <th class="bold" rowspan="2">Área</th>
+      <th class="bold" rowspan="2">Disciplínas</th>
+      <th class="bold" colspan="2">Notas</th>
+      <th class="bold" rowspan="2">Média</th>
+    </tr>
+    <tr>
+      <th class="bold">P1</th>
+      <th class="bold">P2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="bold" rowspan="4">Exatas</th>
+      <th>Matemática</th>
+      <th>0.0</th>
+      <th>0.0</th>
+      <th>0.0</th>
+    </tr>
+    <tr>
+      <th>Física</th>
+      <th>0.0</th>
+      <th>0.0</th>
+      <th>0.0</th>
+    </tr>
+    <tr>
+      <th>Química</th>
+      <th>0.0</th>
+      <th>0.0</th>
+      <th>0.0</th>
+    </tr>
+    <tr>
+      <th>Biologia</th>
+      <th>0.0</th>
+      <th>0.0</th>
+      <th>0.0</th>
+    </tr>
+    <tr>
+      <th class="bold" colspan="4">Média de Exatas</th>
+      <th>0.0</th>
+    </tr>
+    <tr>
+      <th class="bold" rowspan="2">Humanas</th>
+      <th>História</th>
+      <th>0.0</th>
+      <th>0.0</th>
+      <th>0.0</th>
+    </tr>
+    <tr>
+      <th>Geografia</th>
+      <th>0.0</th>
+      <th>0.0</th>
+      <th>0.0</th>
+    </tr>
+    <tr>
+      <th class="bold" colspan="4">Média de Humanas</th>
+      <th>0.0</th>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th colspan="4">Situação do aluno</th>
+      <th>Aprovado</th>
+    </tr>
+  </tfoot>
+</table>
+</body>
+</html>
